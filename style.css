@@ -1,0 +1,91 @@
+body{
+    background-color: lightseagreen;
+    font-family: "Courier New",monospace;
+    margin: auto;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    text-align: center;
+    color: rgb(30, 32, 32);
+}
+h1{
+    font-size: 50px;
+    background-color: aliceblue;
+    /* margin: 20px; */
+    padding: 10px;
+    margin-top: 0px;
+}
+p{
+    text-align: justify;
+}
+.recipes{
+    background-color:brown;
+    padding: 5px;
+    width: 30%;
+    margin: auto;
+}
+.recipes .top{
+    width: 100%;
+    height: 30px;
+    background-color: wheat;
+}
+
+.recipes a{
+    color: lightblue;
+    text-decoration: none;
+}
+.recipes li{
+    list-style-type: none;
+    /* height: 20px; */
+    font-size: 20px;
+    text-align: center;
+}
+.recipes li::before{
+    content: "<3 ";
+}
+.lines{
+    color: wheat;
+    margin-top: 2px;
+}
+
+/* recipes */
+.desc, .ing, .steps{
+    background-color: beige;
+    padding: 10px 20px;
+    /* margin: 5px 20px 10px 20px; */
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.desc p{
+    padding: 5px;
+}
+.pic{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.pic img{
+    width: 400px;
+    border: 2px solid white
+}
+.ing li{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 2px;
+}
+.ing li::before{
+    content: "=> "
+}
+.steps li{
+    margin-bottom: 5px;
+    text-align: left;
+}
+.desc h3, .steps h3, .ing h3{
+    background-color:darkturquoise;
+    height: 30px;
+    padding: 10px;
+    /* vertical-align: middle; */
+    margin: auto;
+    padding-top: 20px;
+}
